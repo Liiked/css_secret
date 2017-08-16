@@ -1,0 +1,53 @@
+body {
+    background: url('./pic.jpg');
+    background-size: 100%;
+}
+
+.round-border {
+    background: tan;
+    border-radius: .83em;
+    padding: 1em;
+    box-shadow: 0 0 0 .6em #655;
+    outline: .6em solid #655;
+}
+
+.gradient {
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(#fb3 50%, #58a 50%);
+    background-size: 100% 30px;
+    margin-top: 20px;
+}
+
+div.gradient-2 {
+    background: linear-gradient(#fb3 33.3%, #58a 0, #58a 66.6%, yellowgreen 0);
+    background-size: 100% 30px;
+}
+
+.vertical-gradient {
+    background: linear-gradient(90deg, #fb3 50%, #58a 50%);
+    background-size: 30% 100%;
+}
+
+.incline-gradient {
+    background: linear-gradient(45deg, #fb3 25%, #58a 0, #58a 50%, #fb3 0, #fb3 75%, #58a 0%);
+    background-size: 42px 42px;
+}
+
+.incline-gradient-repeating {
+    background: repeating-linear-gradient(60deg, #fb3, #fb3 15px, #58a 0, #58a 30px);
+}
+
+.same-color {
+    background: repeating-linear-gradient(30deg, #79b, #79b 15px, #58a 0, #58a 30px);
+}
+
+.gradient-transparent {
+    background: #58a;
+    background-image: repeating-linear-gradient(30deg, hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1) 15px, transparent 0, transparent 30px)
+}
+
+
+/* div.test {
+    background: repeating-linear-gradient(to bottom, #e34214 5%, #6de 50%, #ce3 100%);
+} */
